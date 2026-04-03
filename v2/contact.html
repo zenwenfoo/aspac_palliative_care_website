@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Boss | Travel Website</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Aspac Scripts/style.css">
+    <link rel="stylesheet" href="Aspac Scripts/utility.css">
+    <link rel="stylesheet" href="Aspac Scripts/responsive.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="Aspac Scripts/fonts.css">
+
+    <!-- Normalise CSS -->
+    <link rel="stylesheet" href="Aspac Scripts/normalize.css">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tab Logo -->
+    <link rel="icon" href="Materials/aspacLogoMain (transp).png">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                <img src="Materials/aspacLogoMain (transp).png" alt="Aspac Main Logo" class="header-logo" height="60px">
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+
+    <!-- header -->
+
+    <header class="flex header-sm">
+        <div class="container">
+            <div class="header-title">
+                <h1>Contact</h1>
+                <p>
+                    We're here for you. Always.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- end of header -->
+
+    <!-- contact section -->
+    <section id="contact" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="title">get in touch with us</span>
+                <h2 class="lg-title">contact us</h2>
+            </div>
+
+            <div class="contact-row">
+                <div class="contact-left">
+                    <form action="https://formsubmit.co/info@aspac.my" method="POST"class="contact-form">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your name">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your email">
+                        <textarea rows="4" id="message" name="message" class="form-control" placeholder="Your message"
+                            style="resize: none"></textarea>
+                        <input type="submit" class="btn" value="Send message">
+                    </form>
+                </div>
+                <div class="contact-right my-2">
+                    <div class="contact-item">
+                        <span class="contact-icon flex">
+                            <i class="fa fa-phone-alt"></i>
+                        </span>
+                        <div>
+                            <span>Phone</span>
+                            <p class="text">+603 7783 8833</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon flex">
+                            <i class="fa fa-map-marked-alt"></i>
+                        </span>
+                        <div>
+                            <span>Address</span>
+                            <p class="text">49 Jalan Railway 1/2, PJ</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon flex">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <div>
+                            <span>Message</span>
+                            <p class="text">info@aspac.my</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map" class="py-4">
+        <div class="container">
+            <div class="map-title title-wrap">
+                <span class="title">Drop by and say 'hi'!</span>
+            </div>
+            <div class="map-wrap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127489.43010672387!2d101.57701025820312!3d3.0827472000000045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4bba793165c9%3A0x90c2608e3fa895a9!2sAssisi%20Palliative%20Care%20Bhd!5e0!3m2!1sen!2smy!4v1732179594233!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    <span>ASPAC</span>
+                </a>
+                <p class="text">
+                    49 Jalan Railway 1/2,
+                    46000 Petaling Jaya,
+                    Selangor Darul Ehsan, Malaysia.
+                </p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="#">T: (+60)3 7783 8833</a></li>
+                    <li><a href="#">F: (+60)3 7783 8899</a></li>
+                    <li><a href="#">E: info@aspac.my</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    <!-- Custom JS -->
+    <script src="Aspac Scripts/script.js"></script>
+    <script>
+
+        document.getElementByID('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+        
+        // Get form values
+        const name =
+        document.getElementById('name').value.trim();
+        const email = 
+        document.getElementById('email').value.trim();
+        const phone = 
+        document.getElementbyId('message').value.trim();
+
+        // Validation flags
+        let isValid = true;
+
+        // Name validation
+        if(name === '') {
+            document.getElementById('nameError').textContent = 'Name is required';
+            document.getElementById('nameError').style.display = 'block';
+                isValid = false;
+        }
+
+        // Email validation
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (email === '' || !emailPattern.test(email)) {
+
+            document.getElementById('emailError').textContent = 'Valid email is required';
+            document.getElementById('emailError').style.display='block';
+                isValid = false;
+        }
+
+        // Message validation
+        if (message === '') {
+            document.getElementById('messageError').textContent = 'Message is required';
+            document.getElementById('messageError').style.display = 'block';
+                isValid = false;
+        }
+
+        // Submission action done here
+        if(isValid)
+        {
+
+        }
+        
+        
+        });
+    </script>
+</body>
+
+</html>
