@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPAC Palliative Care</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Aspac Scripts/style.css">
+    <link rel="stylesheet" href="Aspac Scripts/utility.css">
+    <link rel="stylesheet" href="Aspac Scripts/responsive.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="Aspac Scripts/fonts.css">
+
+    <!-- Normalise CSS -->
+    <link rel="stylesheet" href="Aspac Scripts/normalize.css">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tab Logo -->
+    <link rel="icon" href="Materials/aspacLogoMain (transp).png">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index_main.html" class="site-brand">
+                <img src="Materials/aspacLogoMain (transp).png" alt="Aspac Main Logo" class="header-logo" height="60px">
+            </a>
+
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+
+    <!-- header -->
+
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>Palliative Care</h1>
+                <p>
+                    Bringing Comfort and Support. Embracing patients and families in life's toughest moments. Dignity
+                    and Peace over Disease.
+                </p>
+            </div>
+            <div class="header-form">
+                <h2>Download Referral Form:</h2>
+                <form class="flex">
+                    <button class="btn">
+                        <a href="Materials/Aspac referral form.pdf" download="ASPAC Medical Referral Form">Download
+                            Here</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- end of header -->
+
+    <!-- video section -->
+
+    <section id="video" class="py-4">
+        <div>
+            <div class="video-wrapper flex about-left my-2">
+                <video muted loop>
+                    <source src="Materials/trailer.mp4" type="video/mp4">
+                </video>
+                <button type="button" id="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+            </div>
+
+            <!--<div class="scan-row">
+                    <div class="about-right donation-text">
+                    <h2>Support us by Donating</h2>
+                    </div>
+                    <img src="materials/Donation QR.png" alt="qrScan" class="qr-code">
+                </div> -->
+        </div>
+    </section>
+
+    <!-- end of video section -->
+
+    <!-- vision/mission section -->
+
+    <section id="vision" class="py-4">
+        <div class="container recolor">
+            <div class="title-wrap">
+                <span class="sm-title recolor-title">Our Vision, Mission, and Core Values</span>
+                <h2 class="lg-title">Our Vision</h2>
+                <h3>DO EVERYTHING FOR LOVE EVEN THE MOST ORDINARY THINGS</h3>
+                <p class="text vision">With support from our community, we will provide the best compassionate,
+                    competent, and loving care to all those who suffer from life-threatening illnesses.</p>
+
+                <h2 class="lg-title">Our Mission</h2>
+                <p class="text vision">To empower people to live with dignity and hope whilst coping with illness and
+                    loss by providing quality medical care, spiritual and psychosocial support to patients and their
+                    families.</p>
+
+                <h2 class="lg-title">Our Core Values</h2>
+                <p class="text vision">Honour and respect the wishes of our patients.</p>
+                <p class="text vision">Excellence of care.</p>
+                <p class="text vision">To always serve with compassion and love.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of vision/mission section-->
+
+    <!-- featured section -->
+
+    <section id="featured" class="py-4"> 
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Touching Lives Far and Wide</span>
+                <h2 class="lg-title">Featured Events</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="Materials/featured-elc-cheque-2024.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            ELC Cheque Presentation
+                        </span>
+                        <div>
+                            <p class="text featured-margin">Received donation of RM 7000+ from Interact Club of ELC International School.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Materials/featured-charity-fair-2023.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Charity Fair 2023
+                        </span>
+                        <div>
+                            <p class="text featured-margin">Raising funds for assistive palliative care. Lots of goodies went up for sale!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Materials/featured-olf-musical-2019.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            OLF Musical 2019
+                        </span>
+                        <div>
+                            <p class="text featured-margin">The Apostle's Journey - A Call To Mission. Live Performance at Temple of the Fine Arts, KL.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Materials/featured-fund-raising-2019.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Fundraising Event 2019
+                        </span>
+                        <div>
+                            <p class="text featured-margin">Raising funds and awareness at the Church of the Divine Mercy, Shah Alam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Materials/featured-tresses-of-hope-2019.jpeg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Tresses of Hope 2019
+                        </span>
+                        <div>
+                            <p class="text featured-margin">Avenue K Event. Raising awareness for cancer and palliative care.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Materials/featured-fund-dinner-2016.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Fund Raising Dinner Event 2016
+                        </span>
+                        <div>
+                            <p class="text featured-margin">ASPAC-organised dinner event. A celebration of life, a time of
+                                sharing and fun.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- end of featured section -->
+
+    <!-- services section -->
+
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fa-solid fa-hand-holding-medical"></i>
+                    </span>
+                    <h3>Pain Management</h3>
+                    <p class="text">
+                        Our care teams specialise in managing
+                        physical and emotional pain.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fa-solid fa-hand-holding-hand"></i>
+                    </span>
+                    <h3>Emotional Support</h3>
+                    <p class="text">
+                        We can help with feelings of depression and anxiety.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fa-solid fa-hands-holding-child"></i>
+                    </span>
+                    <h3>Spiritual Care</h3>
+                    <p class="text">
+                        Tailored support for the patients' beliefs and values.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+
+    <section id="testimonials" class="py-4">
+        <div class="container">
+
+            <div class="title-wrap">
+                <span class="sm-title">What our patients say about us</span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                        eveniet animi culpa amet eaque. Est, nemo, magnam vero qui incidunt
+                        reprehenderit dolor sed cum sint libero eveniet! Incidunt, numquam
+                        modi!
+                    </p>
+                    <div class="test-item-info">
+                        <img src="Materials/cyndaquil.jpg" alt="testimonial">
+                        <div>
+                            <h3>Kevin Wilson</h3>
+                            <p class="text">Trip to Brazil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+                        facere! Facilis fugit, modi dolor dignissimos qui omnis amet quasi
+                        quas?
+                    </p>
+                    <div class="test-item-info">
+                        <img src="Materials/cyndaquil.jpg" alt="testimonial">
+                        <div>
+                            <h3>Ben Davis</h3>
+                            <p class="text">Trip to Maldives</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Reprehenderit amet maiores iure ipsum magnam reiciendis, consectetur
+                        obcaecati. Sint, ex corporis necessitatibus nihil non cupiditate
+                        quos dignissimos cum quo corrupti magni delectus ab.
+                    </p>
+                    <div class="test-item-info">
+                        <img src="Materials/cyndaquil.jpg" alt="testimonial">
+                        <div>
+                            <h3>Jaura Jones</h3>
+                            <p class="text">Trip to Thailand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of testimonials section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index_main.html" class="site-brand">
+                    <span>ASPAC</span>
+                </a>
+                <p class="text">
+                    49 Jalan Railway 1/2,
+                    46000 Petaling Jaya,
+                    Selangor Darul Ehsan, Malaysia.
+                </p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="#">T: (+60)3 7783 8833</a></li>
+                    <li><a href="#">F: (+60)3 7783 8899</a></li>
+                    <li><a href="#">E: info@aspac.my</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    <!-- Custom JS -->
+    <script src="Aspac Scripts/script.js"></script>
+    <script>
+        // play/pause
+        let video = document.querySelector('.video-wrapper video');
+        addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            }
+            else {
+                video.pause();
+            }
+        });
+    </script>
+</body>
+
+</html>
